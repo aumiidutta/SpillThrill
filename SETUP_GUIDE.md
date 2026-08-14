@@ -31,13 +31,14 @@ Easiest path: use **AWS CloudShell** (top-right icon in the AWS Console) — it 
 3. Run:
 
 &#x20;  ```bash
-   pip install boto3 --quiet   # usually already installed
-   python3 seed\_dynamodb.py --region us-east-1
-   ```
+pip install boto3 --quiet   # usually already installed
+python3 seed\_dynamodb.py --region us-east-1
+
+```
 
 4. You should see:
 
-&#x20;  ```
+\&#x20;  ```
    Seeded 105 items into TruthOrDare\_Truths
    Seeded 105 items into TruthOrDare\_Dares
    ```
@@ -92,27 +93,29 @@ Easiest path: use **AWS CloudShell** (top-right icon in the AWS Console) — it 
 6. On the API's **Details** page, copy the **Invoke URL** (looks like `https://abc123xyz.execute-api.us-east-1.amazonaws.com`). Your full endpoint will be:
 
 &#x20;  ```
-   https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge
-   ```
+https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge
 
-7. **Enable CORS** (needed since the frontend on S3 is a different origin):
+```
 
-   * Left menu → **CORS** → **Configure**.
-   * Access-Control-Allow-Origin: `\*` (or your S3 website URL once you have it, for tighter security)
-   * Access-Control-Allow-Methods: `GET, OPTIONS`
-   * Access-Control-Allow-Headers: `Content-Type`
-   * Save.
+7. \*\*Enable CORS\*\* (needed since the frontend on S3 is a different origin):
+
+   \* Left menu → \*\*CORS\*\* → \*\*Configure\*\*.
+   \* Access-Control-Allow-Origin: `\*` (or your S3 website URL once you have it, for tighter security)
+   \* Access-Control-Allow-Methods: `GET, OPTIONS`
+   \* Access-Control-Allow-Headers: `Content-Type`
+   \* Save.
 8. Test it directly in your browser:
 
-&#x20;  ```
+\&#x20;  ```
    https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge?type=truth
    ```
 
-   You should get back JSON like:
+You should get back JSON like:
 
 &#x20;  ```json
-   {"id": "42", "text": "What's your biggest regret?", "type": "truth", "reset": false, "total": 105}
-   ```
+{"id": "42", "text": "What's your biggest regret?", "type": "truth", "reset": false, "total": 105}
+
+```
 
 
 
@@ -122,7 +125,7 @@ Easiest path: use **AWS CloudShell** (top-right icon in the AWS Console) — it 
 
 1. Open `frontend/script.js` and set:
 
-&#x20;  ```js
+\&#x20;  ```js
    const API\_URL = "https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge";
    ```
 
@@ -139,22 +142,23 @@ Easiest path: use **AWS CloudShell** (top-right icon in the AWS Console) — it 
 4. Go to the **Permissions** tab → **Bucket policy** → paste (replace `BUCKET\_NAME`):
 
 &#x20;  ```json
-   {
-     "Version": "2012-10-17",
-     "Statement": \[
-       {
-         "Sid": "PublicReadGetObject",
-         "Effect": "Allow",
-         "Principal": "\*",
-         "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::BUCKET\_NAME/\*"
-       }
-     ]
-   }
-   ```
+{
+"Version": "2012-10-17",
+"Statement": \[
+{
+"Sid": "PublicReadGetObject",
+"Effect": "Allow",
+"Principal": "\*",
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::BUCKET\_NAME/\*"
+}
+]
+}
 
-5. Go to the **Objects** tab → **Upload** → add `index.html`, `style.css`, `script.js` (with the API\_URL already filled in) → **Upload**.
-6. Back in **Properties → Static website hosting**, copy the **Bucket website endpoint** URL — that's your live app!
+```
+
+5. Go to the \*\*Objects\*\* tab → \*\*Upload\*\* → add `index.html`, `style.css`, `script.js` (with the API\_URL already filled in) → \*\*Upload\*\*.
+6. Back in \*\*Properties → Static website hosting\*\*, copy the \*\*Bucket website endpoint\*\* URL — that's your live app!
 
 
 
@@ -162,7 +166,8 @@ Easiest path: use **AWS CloudShell** (top-right icon in the AWS Console) — it 
 
 ## Part 6 — Play!
 
-Open the S3 website URL on your phone and on a desktop browser — the layout adapts to both. Tap **Truth** or **Dare**, and the same challenge won't show up again until every entry in that category has been seen once.
+Open the S3 website URL on your phone and on a desktop browser — the layout adapts to both. Tap \*\*Truth\*\* or \*\*Dare\*\*, and the same challenge won't show up again until every entry in that category has been seen once.
+
 
 
 
