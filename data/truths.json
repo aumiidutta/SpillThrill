@@ -1,0 +1,422 @@
+[
+  {
+    "id": "1",
+    "text": "What is the most embarrassing thing that has happened to you at school or work?"
+  },
+  {
+    "id": "2",
+    "text": "What's a secret talent you have that nobody knows about?"
+  },
+  {
+    "id": "3",
+    "text": "What is your biggest fear?"
+  },
+  {
+    "id": "4",
+    "text": "Have you ever cheated in a game? What happened?"
+  },
+  {
+    "id": "5",
+    "text": "What's the weirdest dream you've ever had?"
+  },
+  {
+    "id": "6",
+    "text": "What's the most trouble you've ever gotten into?"
+  },
+  {
+    "id": "7",
+    "text": "Who was your first crush?"
+  },
+  {
+    "id": "8",
+    "text": "What's your most embarrassing childhood memory?"
+  },
+  {
+    "id": "9",
+    "text": "If you could switch lives with anyone for a day, who would it be?"
+  },
+  {
+    "id": "10",
+    "text": "What's the last lie you told?"
+  },
+  {
+    "id": "11",
+    "text": "What's your guilty pleasure TV show?"
+  },
+  {
+    "id": "12",
+    "text": "What's the silliest thing you've ever cried about?"
+  },
+  {
+    "id": "13",
+    "text": "What's a habit you wish you could break?"
+  },
+  {
+    "id": "14",
+    "text": "Have you ever pretended to be sick to skip something?"
+  },
+  {
+    "id": "15",
+    "text": "What's the most awkward date you've been on?"
+  },
+  {
+    "id": "16",
+    "text": "What's one thing you're really bad at?"
+  },
+  {
+    "id": "17",
+    "text": "What's the last thing you googled?"
+  },
+  {
+    "id": "18",
+    "text": "What's a food you pretend to like but actually hate?"
+  },
+  {
+    "id": "19",
+    "text": "What's your most irrational fear?"
+  },
+  {
+    "id": "20",
+    "text": "What's the weirdest thing you've eaten?"
+  },
+  {
+    "id": "21",
+    "text": "Have you ever laughed so hard you cried? What was it about?"
+  },
+  {
+    "id": "22",
+    "text": "What's a rumor you started or spread?"
+  },
+  {
+    "id": "23",
+    "text": "What's the most embarrassing song on your playlist?"
+  },
+  {
+    "id": "24",
+    "text": "What's your biggest pet peeve?"
+  },
+  {
+    "id": "25",
+    "text": "What's something you've never told your parents?"
+  },
+  {
+    "id": "26",
+    "text": "What's the most childish thing you still do?"
+  },
+  {
+    "id": "27",
+    "text": "Have you ever had a crush on a friend's partner?"
+  },
+  {
+    "id": "28",
+    "text": "What's your worst habit?"
+  },
+  {
+    "id": "29",
+    "text": "What's the most embarrassing thing in your search history?"
+  },
+  {
+    "id": "30",
+    "text": "What's a nickname you hate being called?"
+  },
+  {
+    "id": "31",
+    "text": "What's your biggest regret?"
+  },
+  {
+    "id": "32",
+    "text": "Have you ever stolen anything, even something small?"
+  },
+  {
+    "id": "33",
+    "text": "What's the last text you sent that you regret?"
+  },
+  {
+    "id": "34",
+    "text": "What's a talent you wish you had?"
+  },
+  {
+    "id": "35",
+    "text": "What's the most embarrassing outfit you've ever worn in public?"
+  },
+  {
+    "id": "36",
+    "text": "What's a lie you've told to get out of trouble?"
+  },
+  {
+    "id": "37",
+    "text": "What's your most used emoji?"
+  },
+  {
+    "id": "38",
+    "text": "Have you ever ghosted someone?"
+  },
+  {
+    "id": "39",
+    "text": "What's the weirdest gift you've ever received?"
+  },
+  {
+    "id": "40",
+    "text": "What's something you're afraid people will find out about you?"
+  },
+  {
+    "id": "41",
+    "text": "What's your most embarrassing autocorrect fail?"
+  },
+  {
+    "id": "42",
+    "text": "Who do you stalk the most on social media?"
+  },
+  {
+    "id": "43",
+    "text": "What's the most trouble you caused as a kid?"
+  },
+  {
+    "id": "44",
+    "text": "What's a secret you've kept from your best friend?"
+  },
+  {
+    "id": "45",
+    "text": "What's a bad habit your family has caught you doing?"
+  },
+  {
+    "id": "46",
+    "text": "What's the meanest thing you've ever said to someone?"
+  },
+  {
+    "id": "47",
+    "text": "What's a fear you had as a child that seems silly now?"
+  },
+  {
+    "id": "48",
+    "text": "What's the most embarrassing thing your parents have caught you doing?"
+  },
+  {
+    "id": "49",
+    "text": "What's your worst first impression story?"
+  },
+  {
+    "id": "50",
+    "text": "What's something you pretend to understand but don't?"
+  },
+  {
+    "id": "51",
+    "text": "What's the longest you've gone without showering?"
+  },
+  {
+    "id": "52",
+    "text": "What's a white lie you tell often?"
+  },
+  {
+    "id": "53",
+    "text": "What's your most embarrassing fashion phase?"
+  },
+  {
+    "id": "54",
+    "text": "What's the weirdest thing you've done for attention?"
+  },
+  {
+    "id": "55",
+    "text": "Have you ever been caught talking about someone behind their back?"
+  },
+  {
+    "id": "56",
+    "text": "What's your most embarrassing 'walked in on' story?"
+  },
+  {
+    "id": "57",
+    "text": "What's the last thing you apologized for but didn't mean it?"
+  },
+  {
+    "id": "58",
+    "text": "What's a secret nickname you have for a friend?"
+  },
+  {
+    "id": "59",
+    "text": "What's the most embarrassing thing on your phone right now?"
+  },
+  {
+    "id": "60",
+    "text": "What's your biggest insecurity?"
+  },
+  {
+    "id": "61",
+    "text": "Have you ever faked an excuse to leave somewhere early?"
+  },
+  {
+    "id": "62",
+    "text": "What's your most embarrassing sports or PE class memory?"
+  },
+  {
+    "id": "63",
+    "text": "What's a class or subject you failed or nearly failed?"
+  },
+  {
+    "id": "64",
+    "text": "What's the weirdest thing you've googled about yourself?"
+  },
+  {
+    "id": "65",
+    "text": "What's the most embarrassing thing you've done in front of a crush?"
+  },
+  {
+    "id": "66",
+    "text": "Have you ever pretended to know a song you didn't?"
+  },
+  {
+    "id": "67",
+    "text": "What's the last time you cried and why?"
+  },
+  {
+    "id": "68",
+    "text": "What's the most embarrassing voicemail you've left or received?"
+  },
+  {
+    "id": "69",
+    "text": "What's a story you exaggerate every time you tell it?"
+  },
+  {
+    "id": "70",
+    "text": "What's the worst gift you've ever given someone?"
+  },
+  {
+    "id": "71",
+    "text": "What's something you do that you'd be embarrassed if your friends saw?"
+  },
+  {
+    "id": "72",
+    "text": "What's the most embarrassing thing that's happened to you on a first date?"
+  },
+  {
+    "id": "73",
+    "text": "Have you ever been caught lying by a parent or teacher?"
+  },
+  {
+    "id": "74",
+    "text": "What's a secret talent you're too shy to show off?"
+  },
+  {
+    "id": "75",
+    "text": "What's the most embarrassing thing you've said in a meeting or class?"
+  },
+  {
+    "id": "76",
+    "text": "What celebrity do you have an embarrassing crush on?"
+  },
+  {
+    "id": "77",
+    "text": "What's the strangest place you've fallen asleep?"
+  },
+  {
+    "id": "78",
+    "text": "What's a food combination you love that others find weird?"
+  },
+  {
+    "id": "79",
+    "text": "What's the most embarrassing thing your search history reveals this week?"
+  },
+  {
+    "id": "80",
+    "text": "Have you ever pretended to be someone else online?"
+  },
+  {
+    "id": "81",
+    "text": "What's a movie or show you cried during that you'd never admit to?"
+  },
+  {
+    "id": "82",
+    "text": "What's the most embarrassing thing you've done at a party?"
+  },
+  {
+    "id": "83",
+    "text": "What's a lie you told on a resume or job interview?"
+  },
+  {
+    "id": "84",
+    "text": "What's the weirdest thing you collect?"
+  },
+  {
+    "id": "85",
+    "text": "What's your go-to excuse for being late?"
+  },
+  {
+    "id": "86",
+    "text": "What's something you do when you're alone that you wouldn't do in front of others?"
+  },
+  {
+    "id": "87",
+    "text": "What's the most embarrassing thing you've worn to bed and been seen in?"
+  },
+  {
+    "id": "88",
+    "text": "What's a childhood cartoon or show you're embarrassed you still watch?"
+  },
+  {
+    "id": "89",
+    "text": "What's the worst haircut you've ever had?"
+  },
+  {
+    "id": "90",
+    "text": "What's the most embarrassing message you've sent to the wrong person?"
+  },
+  {
+    "id": "91",
+    "text": "What's something you lied about to impress someone?"
+  },
+  {
+    "id": "92",
+    "text": "What's a fear or superstition you secretly believe in?"
+  },
+  {
+    "id": "93",
+    "text": "What's the pettiest thing you've ever done?"
+  },
+  {
+    "id": "94",
+    "text": "What's your most embarrassing karaoke story?"
+  },
+  {
+    "id": "95",
+    "text": "What's the last thing that made you jealous?"
+  },
+  {
+    "id": "96",
+    "text": "What's your biggest 'what were you thinking' moment?"
+  },
+  {
+    "id": "97",
+    "text": "What's the most embarrassing thing you've done to get out of exercise?"
+  },
+  {
+    "id": "98",
+    "text": "What's a secret you've never told anyone in this room?"
+  },
+  {
+    "id": "99",
+    "text": "What's the most embarrassing thing you've done for a grade?"
+  },
+  {
+    "id": "100",
+    "text": "What's your most embarrassing social media post you've since deleted?"
+  },
+  {
+    "id": "101",
+    "text": "What's something you're proud of but too shy to share?"
+  },
+  {
+    "id": "102",
+    "text": "What's the weirdest compliment you've ever received?"
+  },
+  {
+    "id": "103",
+    "text": "Have you ever pretended to like a gift you actually hated?"
+  },
+  {
+    "id": "104",
+    "text": "What's a rule you constantly break?"
+  },
+  {
+    "id": "105",
+    "text": "What's your most embarrassing 'caught singing or dancing alone' story?"
+  }
+]

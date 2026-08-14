@@ -1,0 +1,422 @@
+[
+  {
+    "id": "1",
+    "text": "Do your best impression of a celebrity for 30 seconds."
+  },
+  {
+    "id": "2",
+    "text": "Sing the chorus of your favorite song out loud."
+  },
+  {
+    "id": "3",
+    "text": "Talk in an accent for the next three rounds."
+  },
+  {
+    "id": "4",
+    "text": "Do 10 push-ups right now."
+  },
+  {
+    "id": "5",
+    "text": "Let the group post anything they want on your social media (or pretend to)."
+  },
+  {
+    "id": "6",
+    "text": "Dance without music for 30 seconds."
+  },
+  {
+    "id": "7",
+    "text": "Try to lick your elbow."
+  },
+  {
+    "id": "8",
+    "text": "Speak in rhymes for the next two minutes."
+  },
+  {
+    "id": "9",
+    "text": "Do your best animal impression."
+  },
+  {
+    "id": "10",
+    "text": "Let someone draw on your face with a marker (washable)."
+  },
+  {
+    "id": "11",
+    "text": "Do a cartwheel or your best attempt at one."
+  },
+  {
+    "id": "12",
+    "text": "Text a random contact 'I just won the lottery!'"
+  },
+  {
+    "id": "13",
+    "text": "Balance a spoon on your nose for 15 seconds."
+  },
+  {
+    "id": "14",
+    "text": "Do an impression of someone in the room."
+  },
+  {
+    "id": "15",
+    "text": "Wear your clothes backwards for the next 10 minutes."
+  },
+  {
+    "id": "16",
+    "text": "Say the alphabet backwards."
+  },
+  {
+    "id": "17",
+    "text": "Do your best robot dance for 20 seconds."
+  },
+  {
+    "id": "18",
+    "text": "Let someone style your hair however they want."
+  },
+  {
+    "id": "19",
+    "text": "Hold a plank for 30 seconds."
+  },
+  {
+    "id": "20",
+    "text": "Talk without moving your lips for one minute."
+  },
+  {
+    "id": "21",
+    "text": "Do your best impression of a news anchor reporting the weather."
+  },
+  {
+    "id": "22",
+    "text": "Try to juggle three random objects."
+  },
+  {
+    "id": "23",
+    "text": "Sing 'Happy Birthday' like an opera singer."
+  },
+  {
+    "id": "24",
+    "text": "Do 15 jumping jacks."
+  },
+  {
+    "id": "25",
+    "text": "Let the group choose your profile picture for the next hour."
+  },
+  {
+    "id": "26",
+    "text": "Walk like a penguin for one minute."
+  },
+  {
+    "id": "27",
+    "text": "Do your best superhero pose and hold it for 20 seconds."
+  },
+  {
+    "id": "28",
+    "text": "Speak only in questions for the next two rounds."
+  },
+  {
+    "id": "29",
+    "text": "Do an interpretive dance about your day."
+  },
+  {
+    "id": "30",
+    "text": "Try to whistle a tune of the group's choosing."
+  },
+  {
+    "id": "31",
+    "text": "Let someone give you a silly nickname for the rest of the game."
+  },
+  {
+    "id": "32",
+    "text": "Do your best impression of a baby."
+  },
+  {
+    "id": "33",
+    "text": "Act like a chicken for one minute."
+  },
+  {
+    "id": "34",
+    "text": "Try to touch your nose with your tongue."
+  },
+  {
+    "id": "35",
+    "text": "Do your best fashion show walk across the room."
+  },
+  {
+    "id": "36",
+    "text": "Speak in a whisper for the next three rounds."
+  },
+  {
+    "id": "37",
+    "text": "Do a handstand against a wall (or attempt to)."
+  },
+  {
+    "id": "38",
+    "text": "Pretend to be a news reporter covering the game."
+  },
+  {
+    "id": "39",
+    "text": "Do your best impression of the person to your right."
+  },
+  {
+    "id": "40",
+    "text": "Freeze in a funny pose for 30 seconds."
+  },
+  {
+    "id": "41",
+    "text": "Do the worm dance move (or attempt it)."
+  },
+  {
+    "id": "42",
+    "text": "Tell a joke and act it out with sound effects."
+  },
+  {
+    "id": "43",
+    "text": "Do your best impression of a dramatic soap opera scene."
+  },
+  {
+    "id": "44",
+    "text": "Let the group pick an emoji to represent you for the game."
+  },
+  {
+    "id": "45",
+    "text": "Try to say a tongue twister five times fast."
+  },
+  {
+    "id": "46",
+    "text": "Do your best impression of a pirate for one minute."
+  },
+  {
+    "id": "47",
+    "text": "Act out your favorite movie scene without words."
+  },
+  {
+    "id": "48",
+    "text": "Do a silly walk across the room and back."
+  },
+  {
+    "id": "49",
+    "text": "Pretend you're stuck in an invisible box."
+  },
+  {
+    "id": "50",
+    "text": "Do your best opera singing for 15 seconds."
+  },
+  {
+    "id": "51",
+    "text": "Try to draw a self-portrait with your eyes closed."
+  },
+  {
+    "id": "52",
+    "text": "Do your best impression of a game show host."
+  },
+  {
+    "id": "53",
+    "text": "Speak like a robot for the next two rounds."
+  },
+  {
+    "id": "54",
+    "text": "Do your best impression of a cat."
+  },
+  {
+    "id": "55",
+    "text": "Let someone else answer your next phone notification out loud."
+  },
+  {
+    "id": "56",
+    "text": "Do a silly dance move and name it."
+  },
+  {
+    "id": "57",
+    "text": "Try to hula hoop with an imaginary hoop for 20 seconds."
+  },
+  {
+    "id": "58",
+    "text": "Do your best impression of a weather forecaster during a storm."
+  },
+  {
+    "id": "59",
+    "text": "Act out getting a surprise party thrown for you."
+  },
+  {
+    "id": "60",
+    "text": "Do your best 'excited puppy' impression."
+  },
+  {
+    "id": "61",
+    "text": "Try to balance on one foot for 30 seconds while singing."
+  },
+  {
+    "id": "62",
+    "text": "Do your best impression of a villain from a movie."
+  },
+  {
+    "id": "63",
+    "text": "Speak in third person for the next two rounds."
+  },
+  {
+    "id": "64",
+    "text": "Do a silly bow and introduce yourself as royalty."
+  },
+  {
+    "id": "65",
+    "text": "Try to eat a cracker and whistle right after."
+  },
+  {
+    "id": "66",
+    "text": "Do your best impression of someone waking up late for work."
+  },
+  {
+    "id": "67",
+    "text": "Act like you're swimming through the room."
+  },
+  {
+    "id": "68",
+    "text": "Do your best impression of a sports commentator narrating the game."
+  },
+  {
+    "id": "69",
+    "text": "Try to spin around five times and walk in a straight line."
+  },
+  {
+    "id": "70",
+    "text": "Do your best 'shocked face' and hold it for 15 seconds."
+  },
+  {
+    "id": "71",
+    "text": "Pretend to give an acceptance speech for a made-up award."
+  },
+  {
+    "id": "72",
+    "text": "Do your best impression of a scared cat."
+  },
+  {
+    "id": "73",
+    "text": "Try to say your name backwards."
+  },
+  {
+    "id": "74",
+    "text": "Do a silly handshake with the person next to you."
+  },
+  {
+    "id": "75",
+    "text": "Act out brushing your teeth in an exaggerated way."
+  },
+  {
+    "id": "76",
+    "text": "Do your best impression of a grumpy old person."
+  },
+  {
+    "id": "77",
+    "text": "Try to make everyone laugh without speaking or touching them."
+  },
+  {
+    "id": "78",
+    "text": "Do your best 'movie trailer voice' for an imaginary film."
+  },
+  {
+    "id": "79",
+    "text": "Pretend you're a statue for one minute, no matter what happens."
+  },
+  {
+    "id": "80",
+    "text": "Do your best impression of a fish out of water."
+  },
+  {
+    "id": "81",
+    "text": "Try to write your name in the air with your foot."
+  },
+  {
+    "id": "82",
+    "text": "Do a dramatic slow-motion walk across the room."
+  },
+  {
+    "id": "83",
+    "text": "Act like you just won an Olympic gold medal."
+  },
+  {
+    "id": "84",
+    "text": "Do your best impression of a nervous person on a first date."
+  },
+  {
+    "id": "85",
+    "text": "Try to hop on one foot for 20 seconds while singing the alphabet."
+  },
+  {
+    "id": "86",
+    "text": "Do your best impression of a TV chef cooking a dish."
+  },
+  {
+    "id": "87",
+    "text": "Pretend you're giving a weather report from inside a storm."
+  },
+  {
+    "id": "88",
+    "text": "Do your best 'royal wave' and walk around the room."
+  },
+  {
+    "id": "89",
+    "text": "Try to make up a short rap about the person to your left."
+  },
+  {
+    "id": "90",
+    "text": "Do your best impression of a confused tourist asking for directions."
+  },
+  {
+    "id": "91",
+    "text": "Act like a scientist who just made a huge discovery."
+  },
+  {
+    "id": "92",
+    "text": "Do your best impression of a mime stuck in traffic."
+  },
+  {
+    "id": "93",
+    "text": "Try to spell your full name using only your hips."
+  },
+  {
+    "id": "94",
+    "text": "Do your best impression of a sleepy sloth."
+  },
+  {
+    "id": "95",
+    "text": "Pretend to be an announcer at a wrestling match introducing yourself."
+  },
+  {
+    "id": "96",
+    "text": "Do your best 'dramatic gasp' and freeze for 10 seconds."
+  },
+  {
+    "id": "97",
+    "text": "Try to do your best beatbox for 15 seconds."
+  },
+  {
+    "id": "98",
+    "text": "Do your best impression of someone winning a huge prize."
+  },
+  {
+    "id": "99",
+    "text": "Act out being startled by a spider."
+  },
+  {
+    "id": "100",
+    "text": "Do your best impression of a very polite butler."
+  },
+  {
+    "id": "101",
+    "text": "Try to hum a song and have others guess it."
+  },
+  {
+    "id": "102",
+    "text": "Do your best 'diva' strut across the room."
+  },
+  {
+    "id": "103",
+    "text": "Pretend you're a news anchor announcing breaking silly news."
+  },
+  {
+    "id": "104",
+    "text": "Do your best impression of a toddler throwing a tantrum over nothing."
+  },
+  {
+    "id": "105",
+    "text": "End the game with your best victory dance."
+  }
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Truth or Dare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="table-glow"></div>
+
+  <main class="stage">
+    <header class="stage__header">
+      <p class="eyebrow">Party Game</p>
+      <h1 class="title">Truth <span class="title__or">or</span> Dare</h1>
+    </header>
+
+    <section class="card" id="card" aria-live="polite">
+
+      <!-- Pre-pick state -->
+      <div class="card__prompt" id="promptView">
+        <p class="card__question">What'll it be?</p>
+        <div class="choice-row">
+          <button class="choice-btn choice-btn--truth" id="truthBtn" type="button">
+            <span class="choice-btn__icon">💬</span>
+            <span>Truth</span>
+          </button>
+          <button class="choice-btn choice-btn--dare" id="dareBtn" type="button">
+            <span class="choice-btn__icon">🔥</span>
+            <span>Dare</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Shuffling state -->
+      <div class="card__shuffle hidden" id="shuffleView">
+        <div class="die" aria-hidden="true">🎲</div>
+        <p>Shuffling the deck&hellip;</p>
+      </div>
+
+      <!-- Result state -->
+      <div class="card__result hidden" id="resultView">
+        <span class="result-tag" id="resultTag">Truth</span>
+        <p class="result-text" id="resultText"></p>
+        <p class="reset-note hidden" id="resetNote">You've seen every one &mdash; reshuffling the full deck! 🔄</p>
+        <div class="result-actions">
+          <button class="pill-btn pill-btn--primary" id="anotherBtn" type="button">Play again</button>
+          <button class="pill-btn pill-btn--ghost" id="switchBtn" type="button"></button>
+        </div>
+      </div>
+
+      <!-- Error state -->
+      <div class="card__error hidden" id="errorView">
+        <p id="errorText">Something went wrong. Please try again.</p>
+        <button class="pill-btn pill-btn--primary" id="retryBtn" type="button">Try again</button>
+      </div>
+
+    </section>
+
+    <footer class="stage__footer">
+      <div class="tally" id="tally">Truths seen: 0 &nbsp;&middot;&nbsp; Dares seen: 0</div>
+      <button class="link-btn" id="clearBtn" type="button">Reset my history</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
