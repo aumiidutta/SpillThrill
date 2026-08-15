@@ -1,4 +1,4 @@
-## Part 1 — Create the DynamoDB tables
+## Create the DynamoDB tables
 
 1. Go to the **DynamoDB** console → **Tables** → **Create table**.
 2. Table 1:
@@ -11,8 +11,7 @@
    - Partition key: `id`, type **String**
 
 
-
-## Part 2 — Seed the tables with the 100+ challenges using AWS Lambda console
+## Seed the tables using AWS Lambda console
 
 1. Go to the **Lambda** console → **Create function** → Author from scratch.
    - Name: `TruthOrDareSeeder`
@@ -28,18 +27,17 @@
    - Save.
 4. Go to the **Test** tab → **Create new event** → name it anything (e.g. `seedOnce`) → leave the JSON body as `{}` → **Save** → **Test**.
 5. Check the execution result panel — you should see:
-   ```json
-   {
-     "message": "Seeding complete",
-     "truths_loaded": 105,
-     "dares_loaded": 105
-   }
-
+```json
+{
+   "message": "Seeding complete",
+   "truths_loaded": 105,
+   "dares_loaded": 105
+}
+```
 6. Spot-check in the DynamoDB console → table → **Explore table items**.
 
 
-
-## Part 3 — Create the Lambda function
+## Create the Lambda function
 
 1. Go to the **Lambda** console → **Create function**.
 2. Choose **Author from scratch**.
@@ -59,11 +57,9 @@
    - Click **Add permissions → Attach policies**.
    - Attach `AmazonDynamoDBReadOnlyAccess` (sufficient — the app only reads).
    - Save.
-> (Optional but recommended) **Configuration → General configuration → Edit**: set Timeout to `10 sec` (default 3s is usually enough, but this gives headroom).
 
 
-
-## Part 4 — Create the API Gateway (HTTP API)
+## Create the API Gateway (HTTP API)
 
 1. Go to the **API Gateway** console → **Create API** → **HTTP API** → **Build**. Name the API as **TruthOrDareAPI**.
 2. **Integrations**: Add integration → Lambda → select `TruthOrDareFunction`.
@@ -74,9 +70,9 @@
 4. **Configure stages**: keep the default `$default` auto-deploy stage.
 5. Click **Create**.
 6. On the API's **Details** page, copy the **Invoke URL** (looks like `https://abc123xyz.execute-api.us-east-1.amazonaws.com`). Your full endpoint will be:
-   ```
-   https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge
-   ```
+```
+https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge
+```
 7. **Enable CORS** (needed since the frontend on S3 is a different origin):
    - Left menu → **CORS** → **Configure**.
    - Access-Control-Allow-Origin: `*` (or your S3 website URL once you have it, for tighter security)
@@ -85,22 +81,21 @@
    - Save.
 
 8. Test it directly in your browser:
-   ```
-   https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge?type=truth
-   ```
+```
+https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge?type=truth
+```
    You should get back JSON like:
-   ```json
-   {"id": "42", "text": "What's your biggest regret?", "type": "truth", "reset": false, "total": 105}
-   ```
+```json
+{"id": "42", "text": "What's your biggest regret?", "type": "truth", "reset": false, "total": 105}
+```
 
----
 
-## Part 5 — Wire the frontend to your API and host it on S3
+## Upload the frontend and host using S3 bucket
 
 1. Open `frontend/script.js` and set:
-   ```js
-   const API_URL = "https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge";
-   ```
+```js
+const API_URL = "https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge";
+```
 2. Go to the **S3** console → **Create bucket**.
    - Bucket name: something globally unique, e.g. `truth-or-dare-yourname`
    - **Uncheck** "Block all public access" (a static website needs public read access) and acknowledge the warning.
@@ -110,30 +105,28 @@
    - Index document: `index.html`
    - Save.
 4. Go to the **Permissions** tab → **Bucket policy** → paste (replace `BUCKET_NAME`):
-   ```json
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Sid": "PublicReadGetObject",
-         "Effect": "Allow",
-         "Principal": "*",
-         "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::BUCKET_NAME/*"
-       }
-     ]
-   }
-   ```
+```json
+{
+   "Version": "2012-10-17",
+   "Statement": [
+      {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+      }
+   ]
+}
+```
 5. Go to the **Objects** tab → **Upload** → add `index.html`, `style.css`, `script.js` (with the API_URL already filled in) → **Upload**.
 6. Back in **Properties → Static website hosting**, copy the **Bucket website endpoint** URL — that's your live app!
 
----
 
-## Part 6 — Play!
+## Play the game!
 
 Open the S3 website URL on your phone and on a desktop browser — the layout adapts to both. Tap **Truth** or **Dare**, and the same challenge won't show up again until every entry in that category has been seen once.
 
----
 
 ## Troubleshooting
 
