@@ -1,23 +1,12 @@
-"""
-Lambda entry point for the Truth or Dare app.
-
-Triggered by API Gateway (HTTP API) on GET /challenge?type=truth|dare&exclude=1,2,3
-
-Env vars (set these in the Lambda console):
-  TRUTHS_TABLE  - DynamoDB table name for truths   (default: TruthOrDare_Truths)
-  DARES_TABLE   - DynamoDB table name for dares     (default: TruthOrDare_Dares)
-"""
 import json
 import os
-
 import boto3
-
 from challenge_logic import pick_challenge
 
 dynamodb = boto3.resource("dynamodb")
 
-TRUTHS_TABLE = os.environ.get("TRUTHS_TABLE", "TruthOrDare_Truths")
-DARES_TABLE = os.environ.get("DARES_TABLE", "TruthOrDare_Dares")
+TRUTHS_TABLE = os.environ.get("TRUTHS_TABLE", "Truths")
+DARES_TABLE = os.environ.get("DARES_TABLE", "Dares")
 
 CORS_HEADERS = {
     "Access-Control-Allow-Origin": "*",

@@ -2,7 +2,7 @@
 // CONFIG: paste your API Gateway invoke URL here after deployment.
 // Example: "https://abc123xyz.execute-api.us-east-1.amazonaws.com/challenge"
 // ------------------------------------------------------------------
-const API_URL = "PASTE_YOUR_API_GATEWAY_URL_HERE";
+const API_URL = "https://bni91guid1.execute-api.eu-north-1.amazonaws.com/challenge";
 
 const STORAGE_KEY = "truthOrDareSeenIds"; // { truth: [...ids], dare: [...ids] }
 
